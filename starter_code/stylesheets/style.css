@@ -11,6 +11,8 @@ nav grey: #5b5e6d;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .logo {
@@ -19,6 +21,8 @@ nav grey: #5b5e6d;
 
 h1 {
     color: rgb(58, 56, 66);
+    padding-top: 80px;
+    background-color: #fff;
 }
 
 img {
