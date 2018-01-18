@@ -6,81 +6,115 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 <script src="https://use.fontawesome.com/1fb0eb3889.js"></script>
 */
+
+.navegador {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 125px
+}
+
+h1 {
+    color: rgb(58, 56, 66);
+}
+
+img {
+    max-width: 100%
+}
+
 header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.navegador{
-    width: 100%;
-    display:flex;
-    flex-wrap:;
-    align-self: stretch;
-    justify-content: space-between;
-
-    
-}
-.image1 {
-    width: 30%;
-    height: 100%;
-
-} 
-
-
-.menu{
-    width: 25%;
-    margin:0%;
-    padding:0%;
-    display: inline;
-    
 }
 
-.li1 {
-    display: inline-block;
-    margin: 0%;
-    padding: 0%;
-
+.get {
+    color: dimgrey;
 }
-.container {
 
+main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.b2 {
+    background-color: #3f46ad;
+    color: #fff;
+    padding: 20px;
+}
+
+.b1 {
+    background-color: #fff;
+    color: #1c299d;
+    box-shadow: inset 0 0 0 1px #9ba0d3;
+    padding: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-container {
+    height: 1000px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 75px;
+}
+
+.container {
+    grid-gap: 0px;
+    grid-row: auto 0px;
+    grid-column-gap: 0px;
+    text-align: center;
+}
+
+.images {
+    border-right: none;
+    display: flex;
     align-items: center;
-    flex: 0 0 45%;
-    
+    justify-content: center;
+    flex-direction: column;
+    margin bottom: 5px;
 }
 
-.container img {
-
-    width: 30%;
-    
-
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
+.footer-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    color: #6d6f7b;
+    list-style: none;
+}
 
+.footer-list-container div {
+    width: 40%;
+}
 
+.navfooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
+style li {
+    list-style: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 650px) and (max-width: 999px) {
-    .responsive-div {
-      background-color: green;
-    }
-  }
-
-
+.navfooter2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 75px;
+    color: dimgray;
+    text-align: center;
+    font-family: Slack-Averta, appleLogo, sans-serif;
+}
